@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Global settings
+timezone: America/New_York
+
+# Site settings
+title: GeoSys Int.
+email: mrossi@geosysint.com
+description: >
+  GeoSystems International, Inc. (GSI) is dedicated to the use of sounds 
+  scientific methods for the investigation of spatially distributed phenomena.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://geosysint.com" # the base hostname & protocol for your site
+author: Thomas Pakh
+
+# Build settings
+markdown: kramdown
