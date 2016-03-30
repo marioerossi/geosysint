@@ -1,12 +1,12 @@
 ---
 layout: container
-title: Personnel
+title: Personnel and Associates
 permalink: /personnel/
 ---
 <!-- Image Header -->
 <div class="row">
     <div class="col-lg-12">
-        <h1>Our Staff</h1>      
+        <h1>Personnel and Independent Associates</h1>      
     </div>
 </div>
 <!-- /.row-->
@@ -14,17 +14,15 @@ permalink: /personnel/
 {% for member in site.data.members %}
 <hr>
 <div class="row">
-    <div class="col-lg-3">
-        <img src="http://placehold.it/200x250" href="#">
+    <div class="col-lg-3">        
+        <img src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/200x250{% endif %}" {% if member.link %}href="{{ member.link }}"{% endif %}>
         <h2>{{ member.name }}</h2>
         <h5>{{ member.title }}</h5>
     </div>
     <div class="col-lg-9">
         <h2>About</h2>
-        {{ member.about | markdownify }}
+        {{ member.about | markdownify | smartify }}
     </div>
 </div>
 <!-- /.row-->
 {% endfor %}
-
-<!-- Copy above for all contractors-->
