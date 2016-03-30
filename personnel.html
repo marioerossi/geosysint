@@ -14,15 +14,19 @@ permalink: /personnel/
 {% for member in site.data.members %}
 <hr>
 <div class="row">
-    <div class="col-lg-3">        
-        <img src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/200x250{% endif %}" {% if member.link %}href="{{ member.link }}"{% endif %}>
+    <div class="col-lg-3">
+        {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}
+            <img src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/200x250{% endif %}">
+        {% if member.link %}</a>{% endif %}
         <h2>{{ member.name }}</h2>
         <h5>{{ member.title }}</h5>
     </div>
+    {% if member.about %}
     <div class="col-lg-9">
         <h2>About</h2>
         {{ member.about | markdownify | smartify }}
     </div>
+    {% endif %}
 </div>
 <!-- /.row-->
 {% endfor %}

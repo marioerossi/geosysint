@@ -1,1 +1,13 @@
-name,title,aboutTest Name,Test Title,"This is [an example](http://example.com/ ""Title"") inline link."Second Person,Better Title,"This is [an example](http://example.com/ ""Title"") inline link. ASDF."
+name,title,about,link,image
+Mario E. Rossi,President and Principal Geostatistician,,,
+Jose Bassan,Senior Geologist,Exploration and Mine Geology; Resource Estimation; MineSight specialist,,
+Julio Bruna,Principal Geologist,,,
+Ariana Carrazana,Senior Geologist,Exploration and Mine Geologist; QA/QC programs,,
+Centre for Computational Geostatistics,"University of Alberta, Edmonton",,,
+Fernando Dibona,Senior Resource Geologist,,,
+Orestes Gomez Gonzalez,Senior Geologist and Geostatistician,,,
+"Inti Mining Smart Solutions, SAC (IMSS)",Strategic Mining Engineering Services,,,
+"Paul Satchwell, MTSI",Principal Mining Engineer/Project Manager,,,
+Timothy Strong,Resource Geologist,,,
+David Tutton,Principal Mining Engineer,Independent Adviser,,
+Bruce Van Brunt,Principal Mining Engineer,Independent Consultant and Adviser,https://www.linkedin.com/in/brucevanbrunt,
