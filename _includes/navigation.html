@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     {% for page in site.pages %}
-                        {% if page.title %}
+                        {% if page.title and page.showinnav == true %}
                             <li>
                                 <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                             </li>

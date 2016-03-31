@@ -1,14 +1,18 @@
+{% for cat in site.data.project_categories %}{% if cat.slug == include.category %}{% assign category = cat.name %}{% endif %}{% endfor%}
+{% assign category_slug = include.category %}
+
+<div class="page-header">
+    <h2>{{ category }}</h2>
+</div>
+
 <ol class="breadcrumb">
-  <li><a href="{{ "/projects/ " | prepend: site.baseurl }}">Categories</a></li>
-  <li class="active">{{ include.category }}</li>
+    <li><a href="{{ "/projects/ " | prepend: site.baseurl }}">Categories</a></li>
+    <li class="active">{{ category }}</li>
 </ol>
 
 <ul>
-    {% for project in site.projects %}
-        {% if project.category == include.category %}
-        <li>
-            {{ project.title }}
-        </li>
-        {% endif %}
+    {% assign sorted_projects = site.projects | where:"category",category_slug  %}
+    {% for project in sorted_projects %}
+        <li><a href="{{ site.baseurl }}{{ project.url | split:"/index" }}">{{ project.title }}</a></li>
     {% endfor %}
 </ul>

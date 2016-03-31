@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Projects
+titlesize: 2
+showinnav: true
 permalink: /projects/
 ---
 
@@ -9,9 +11,10 @@ permalink: /projects/
 </ol>
 
 <ul>
-    {% for cat in site.data.project_categories %}
+    {% assign sorted_categories = site.data.project_categories | sort: "name" %}
+    {% for cat in sorted_categories %}
     <li>
-        {{ cat }}
+        <a href="{{ cat.slug | prepend: "/categories/" | prepend: site.baseurl}}">{{ cat.name }}</a>
     </li>
     {% endfor %}
 </ul>

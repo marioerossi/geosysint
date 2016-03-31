@@ -2,7 +2,7 @@
 layout: container
 ---
 <div class="page-header">
-    <h1>{{ page.title }}{% if page.subtitle %} <small>Subtext for header</small>{% endif %}</h1>
+    <h{{ page.titlesize | default: "1" }}>{{ page.title }}{% if page.subtitle %} <small>Subtext for header</small>{% endif %}</h{{ page.titlesize | default: "1" }}>
 </div>
 
 {{ content }}
