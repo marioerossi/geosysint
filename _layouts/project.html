@@ -1,0 +1,11 @@
+---
+layout: page
+---
+{% for cat in site.data.project_categories %}{% if cat.slug == page.category %}{% assign category = cat.name %}{% endif %}{% endfor%}
+<ol class="breadcrumb">
+    <li><a href="{{ "/projects/ " | prepend: site.baseurl }}">Categories</a></li>
+    <li><a href="{{ site.baseurl }}/categories/{{ page.category }}">{{ category }}</a></li>
+    <li class="active">{{ page.title }}</li>
+</ol>
+
+{{ content }}

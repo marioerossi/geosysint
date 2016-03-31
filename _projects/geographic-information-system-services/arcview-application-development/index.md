@@ -1,15 +1,20 @@
 ---
-layout: page
+layout: project
 category: geographic-information-system-services
 title: ArcView Implementation for Environmental Assessment
+titlesize: 2
 ---
 
-Project experiences from the Presidio of San Francisco
+<h3 style="text-align:center;">Project experiences from the Presidio of San Francisco</h3>
 
-Patrick Kowta,GeoSystems International
+<h4 style="text-align:center;">Patrick Kowta,GeoSystems International
+<br>
 &
+<br>
 Gregory Hall, Montgomery Watson Americas, Inc.
-Intro
+</h4>
+
+## Intro
 
 In early 1994, GSI was hired by the U.S. Army Corps of Engineers and Montgomery Watson Americas, Inc. (MW) to support environmental investigations at the Presidio of San Francisco through the use of GIS. As part of these efforts, the GIS staff has developed a series of ArcView applications for use by the project staff and client.
 
