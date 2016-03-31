@@ -4,30 +4,28 @@ title: Personnel and Associates
 showinnav: true
 permalink: /personnel/
 ---
-<!-- Image Header -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1>Personnel and Independent Associates</h1>      
-    </div>
+<div class="page-header">
+    <h1>Personnel and Independent Associates</h1>
 </div>
-<!-- /.row-->
 
-{% for member in site.data.members %}
-<hr>
 <div class="row">
-    <div class="col-lg-3">
-        {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}
-            <img src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/200x250{% endif %}">
-        {% if member.link %}</a>{% endif %}
-        <h2>{{ member.name }}</h2>
-        <h5>{{ member.title }}</h5>
-    </div>
-    {% if member.about %}
-    <div class="col-lg-9">
-        <h2>About</h2>
-        {{ member.about | markdownify | smartify }}
-    </div>
-    {% endif %}
+    <ul class="media-list">
+        {% for member in site.data.members %}
+        <li class="media col-lg-5 col-md-6">
+            <div class="media-left media-middle">
+                {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}
+                    <img class="media-object personnel" src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/150x150{% endif %}" alt="{{ member.name }}">
+                {% if member.link %}</a>{% endif %}
+            </div>
+            <div class="media-body">
+                <h2 class="media-heading">{{ member.name }}</h2>
+                {% if member.title %}<h5><i>{{ member.title }}</i></h5>{% endif %}
+                {% if member.about %}
+                    <h4>About</h4>
+                    {{ member.about | markdownify | smartify }}
+                {% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
-<!-- /.row-->
-{% endfor %}
