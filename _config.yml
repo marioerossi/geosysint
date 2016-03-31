@@ -16,7 +16,7 @@ description: >
   scientific methods for the investigation of spatially distributed phenomena.
 baseurl: "/geosysint" # the subpath of your site, e.g. /blog
 url: "http://geosysint.com" # the base hostname & protocol for your site
-author: Thomas Pakh, Sebastian Rossi
+author: "Thomas Pakh, Sebastian Rossi"
 
 # Build settings
 markdown: kramdown
