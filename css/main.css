@@ -15,7 +15,7 @@ footer {
     margin: 50px 0;
 }
 
-div.carousel-inner div.item {
-    width: 1600px;
-    height: 400px;
+div.carousel-inner div.item img {
+    width: 100%;
+    max-height:400px;
 }
