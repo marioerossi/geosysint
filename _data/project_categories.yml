@@ -1,9 +1,18 @@
-- Mineral Resource Estimation
-- Audits
-- Conditional Simulation Studies
-- Mine Planning
-- Grade Control
-- Geographic Information System Services
-- Solids Modeling
-- Training
-- Environmental Impact Statements
+- name: Mineral Resource Estimation
+  slug: mineral-resource-estimation
+- name: Audits
+  slug: audits
+- name: Conditional Simulation Studies
+  slug: conditional-simulation-studies
+- name: Mine Planning
+  slug: mine-planning
+- name: Grade Control
+  slug: grade-control
+- name: Geographic Information System Services
+  slug: geographic-information-system-services
+- name: Solids Modeling 
+  slug: solids-modeling
+- name: Training 
+  slug: training
+- name: Environmental Impact Statements
+  slug: environmental-impact-statements
