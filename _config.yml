@@ -20,3 +20,8 @@ author: Thomas Pakh
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path
