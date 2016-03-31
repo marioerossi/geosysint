@@ -1,6 +1,11 @@
+<ol class="breadcrumb">
+  <li><a href="{{ "/projects/ " | prepend: site.baseurl }}">Categories</a></li>
+  <li class="active">{{ include.category }}</li>
+</ol>
+
 <ul>
     {% for project in site.projects %}
-        {% if project.category == page.category %}
+        {% if project.category == include.category %}
         <li>
             {{ project.title }}
         </li>
