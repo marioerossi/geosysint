@@ -1,5 +1,6 @@
 ---
 layout: page
+category: geographic-information-system-services
 title: ArcView Implementation for Environmental Assessment
 ---
 

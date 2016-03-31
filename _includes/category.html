@@ -1,0 +1,9 @@
+<ul>
+    {% for project in site.projects %}
+        {% if project.category == page.category %}
+        <li>
+            {{ project.title }}
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
