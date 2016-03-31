@@ -12,9 +12,13 @@ permalink: /personnel/
     <ul class="media-list">
         {% for member in site.data.members %}
         <li class="media col-lg-5 col-md-6">
-            <div class="media-left media-middle">
-                {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}
-                    <img style="max-width: none;" class="media-object img-responsive img-thumbnail" src="{% if member.image %}{{ site.baseurl }}/img/members/{{ member.image }}{% else %}http://placehold.it/150x150{% endif %}" alt="{{ member.name }}">
+            <div class="media-left media-top">
+                {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}                    
+                    {% if member.image %}
+                    <img class="media-object img-thumbnail" src="{{ site.baseurl }}/img/members/{{ member.image }}" alt="{{ member.name }}">
+                    {% else %}
+                    <i class="media-object img-thumbnail fa fa-user fa-5x"></i>
+                    {% endif %}
                 {% if member.link %}</a>{% endif %}
             </div>
             <div class="media-body">
