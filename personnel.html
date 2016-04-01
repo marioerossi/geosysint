@@ -8,34 +8,34 @@ permalink: /personnel/
     <h1>Personnel and Independent Associates</h1>
 </div>
 
-<ul class="media-list">
-    {% assign count = 1 %}
-    <div class="row">
-    {% for member in site.data.members %}
-    {% assign temp = count | modulo: 2 %}
-    {% if temp == 1 %}
-    </div>
-    <div class="row">
-    {% endif %}
-        <li class="media col-lg-6 col-md-6">
-            <div class="media-left media-top">
-                {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}                    
-                    {% if member.image %}
-                    <img class="media-object img-thumbnail" style="max-width: 128px; max-height: 128px" src="{{ site.baseurl }}/img/members/{{ member.image }}" alt="{{ member.name }}">
-                    {% else %}
-                    <i class="media-object img-thumbnail fa fa-user fa-5x"></i>
-                    {% endif %}
-                {% if member.link %}</a>{% endif %}
-            </div>
-            <div class="media-body">
-                <h2 class="media-heading">{{ member.name }}</h2>
-                {% if member.title %}<h5><i>{{ member.title }}</i></h5>{% endif %}
-                {% if member.about %}
-                    <h4>About</h4>
-                    {{ member.about | markdownify | smartify }}
+{% assign count = 1 %}
+<div class="row">
+{% for member in site.data.members %}
+{% assign temp = count | modulo: 2 %}
+{% if temp == 1 %}
+</div>
+<div class="row">
+{% endif %}
+    <div class="media col-lg-6 col-md-6">
+        <div class="media-left media-top">
+            {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}                    
+                {% if member.image %}
+                <img class="media-object img-thumbnail" style="max-width: 128px; max-height: 128px" src="{{ site.baseurl }}/img/members/{{ member.image }}" alt="{{ member.name }}">
+                {% else %}
+                <i class="media-object img-thumbnail fa fa-user fa-5x"></i>
                 {% endif %}
-            </div>
-        </li>
-    {% assign count = count | plus:1 %}
-    {% endfor %}
-</ul>
+            {% if member.link %}</a>{% endif %}
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{ member.name }}</h2>
+            {% if member.title %}<h5><i>{{ member.title }}</i></h5>{% endif %}
+            {% if member.about %}
+                <h4>About</h4>
+                {{ member.about | markdownify | smartify }}
+            {% endif %}
+        </div>
+    </div>
+{% assign count = count | plus:1 %}
+{% endfor %}
+</div>
+<!-- /.rows -->
