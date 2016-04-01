@@ -10,9 +10,31 @@
     <li class="active">{{ category }}</li>
 </ol>
 
-<ul>
-    {% assign sorted_projects = site.projects | where:"category",category_slug  %}
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    {% assign sorted_projects = site.projects | where:"category",category_slug %}
+    {% assign count = 1 %}
     {% for project in sorted_projects %}
-        <li><a href="{{ site.baseurl }}{{ project.url | split:"/index" }}">{{ project.title }}</a></li>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading{{ count }}">
+            <h4 class="panel-title">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ count }}" aria-expanded="{% if count == 1 %}true{% else %}false{% endif %}" aria-controls="collapse{{ count }}">
+                            {{ project.title }}
+                        </a>
+                        <div class="pull-right">
+                            <a class="btn btn-info btn-xs" href="{{ site.baseurl }}{{ project.url | split:"/index" }}">Learn More <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>                    
+                </div>
+            </h4>
+        </div>
+        <div id="collapse{{ count }}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{ count }}">
+            <div class="panel-body">
+                {{ project.excerpt }}
+            </div>
+        </div>
+    </div>
+    {% assign count = count | plus:1 %}
     {% endfor %}
-</ul>
+</div>
