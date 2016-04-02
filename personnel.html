@@ -9,11 +9,12 @@ permalink: /personnel/
 </div>
 
 {% assign count = 1 %}
-<div class="row">
 {% for member in site.data.members %}
 {% assign temp = count | modulo: 2 %}
 {% if temp == 1 %}
+{% if count != 1 %}
 </div>
+{% endif %}
 <div class="row">
 {% endif %}
     <div class="media col-lg-6 col-md-6">
