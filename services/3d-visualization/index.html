@@ -1,0 +1,33 @@
+---
+layout: container
+title: 3D Visualization
+---
+<!-- breadcrumbs -->
+<div class="row">
+    <ol class="breadcrumb">
+    <li><a href="="{{ site.baseurl }}/services/">Services</a></li>
+    <li class="active">3D Visualization</li>
+    </ol>
+</div>
+<!-- /.row -->
+<div class="row"></div>
+            {% assign sorted_services = site.data.services | sort: "name" %}
+            {% for cat in sorted_services %}
+            {% if cat.type == "3dvis" %}
+            <div class="col-md-4">
+            <div class="media">
+                <div class="pull-left">
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                    </span> 
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">{{cat.name}}</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                </div>
+            </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+</div>
