@@ -12,6 +12,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+    <script src="{{ site.baseurl }}/js/{{ script }}"></script>
+    {% endfor %}
+    {% endif %}
 </body>
 
 </html>
