@@ -11,24 +11,10 @@ body {
     margin: 0 auto;
 }
 
-.carousel-image img {
-    visibility: hidden;
+div.carousel-inner div.item img {
+    width: 100%;
+    max-height:400px;
 }
-
-.carousel-image {    
-    display: block;
-    max-width: 100%;
-    height: auto;
-    max-height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 
 /* Sticky footer styles
 -------------------------------------------------- */
