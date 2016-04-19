@@ -31,8 +31,8 @@ permalink: /personnel/
             <h2 class="media-heading">{{ member.name }}</h2>
             {% if member.title %}<h5><i>{{ member.title }}</i></h5>{% endif %}
             {% if member.about %}
-                <h4>About</h4>
                 {{ member.about | markdownify | smartify }}
+                <br>
             {% endif %}
         </div>
     </div>
