@@ -10,6 +10,11 @@ body {
   );
 }
 
+.satinweave {
+  background-image: url("../img/satinweave.png");
+  background-color: #e6e6e6;
+}
+
 .tagline {
   text-shadow: 0 0 10px #000;
   color: #fff;
