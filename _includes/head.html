@@ -10,6 +10,13 @@
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  {% if jekyll.environment == "production" %}
+  <script>
+    if (window.location.protocol !== "https:")
+      window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+  </script>
+  {% endif %}
   
   {% if page.styles %}
   {% for style in page.styles %}

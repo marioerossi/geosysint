@@ -30,6 +30,12 @@ div.carousel-inner div.item img {
   max-height:400px;
 }
 
+a.navbar-brand img {
+  width: 125px;
+  height: auto;
+  margin-top: -7px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
