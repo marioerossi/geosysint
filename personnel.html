@@ -20,7 +20,14 @@ navposition: 1
 {% endif %}
     <div class="media col-lg-6 col-md-6">
         <div class="media-left media-top">
-            {% if member.link %}<a href="{{ member.link }}" target="_blank">{% endif %}                    
+                {% if member.link %}
+                {% unless member.link | truncate: 4, "" contains "http" %}
+                    {% assign member.link | prepend "http://" %}
+                {% endunless %}
+                {% member.link | split: 'http' %}
+                <a href="{{ member.link }}" target="_blank">
+                {% endif %}
+
                 {% if member.image %}
                 <img class="media-object img-thumbnail" style="max-width: 128px; max-height: 128px" src="{{ site.baseurl }}/img/members/{{ member.image }}" alt="{{ member.name }}">
                 {% else %}
