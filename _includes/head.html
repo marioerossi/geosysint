@@ -13,7 +13,7 @@
 
   {% if jekyll.environment == "production" %}
   <script>
-    if (window.location.protocol !== "https:")
+    if (window.location.hostname !== {{ site.domain }} && window.location.protocol !== "https:")
       window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
   </script>
   {% endif %}
