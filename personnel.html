@@ -21,10 +21,11 @@ navposition: 1
     <div class="media col-lg-6 col-md-6">
         <div class="media-left media-top">
                 {% if member.link %}
-                {% unless member.link | truncate: 4, "" contains "http" %}
-                    {% assign member.link = member.link | prepend "http://" %}
-                {% endunless %}
-                <a href="{{ member.link }}" target="_blank">
+                    {% if member.link | truncate: 4, "" != "http" %}
+                    <a href="{{ "http://" | append: member.link }}" target="_blank">
+                    {% else %}
+                    <a href="{{ member.link }}" target="_blank">
+                    {% endif %}
                 {% endif %}
 
                 {% if member.image %}
