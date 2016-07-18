@@ -14,7 +14,7 @@ email: mrossi@geosysint.com
 description: >
   GeoSystems International, Inc. (GSI) is dedicated to the use of sounds 
   scientific methods for the investigation of spatially distributed phenomena.
-baseurl: "/geosysint" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://beta.geosysint.com" # the base hostname & protocol for your site
 domain: "beta.geosysint.com"
 author: "Thomas Pakh, Sebastian Rossi"
