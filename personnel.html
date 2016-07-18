@@ -22,9 +22,8 @@ navposition: 1
         <div class="media-left media-top">
                 {% if member.link %}
                 {% unless member.link | truncate: 4, "" contains "http" %}
-                    {% assign member.link | prepend "http://" %}
+                    {% assign member.link = member.link | prepend "http://" %}
                 {% endunless %}
-                {% member.link | split: 'http' %}
                 <a href="{{ member.link }}" target="_blank">
                 {% endif %}
 
