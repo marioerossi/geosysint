@@ -21,8 +21,9 @@ navposition: 1
     <div class="media col-lg-6 col-md-6">
         <div class="media-left media-top">
                 {% if member.link %}
-                    {% if member.link | truncate: 4, "" != "http" %}
-                    <a href="{{ "http://" | append: member.link }}" target="_blank">
+                    {% assign truncate = member.link | truncate: 4, "" %}
+                    {% if truncate != "http" %}
+                    <a href="{{ 'http://' | append: member.link }}" target="_blank">
                     {% else %}
                     <a href="{{ member.link }}" target="_blank">
                     {% endif %}
