@@ -25,9 +25,25 @@ body {
   margin: 0 auto;
 }
 
+div.carousel-inner div.item {
+  overflow-x: hidden;
+}
+
 div.carousel-inner div.item img {
-  width: 100%;
-  max-height:400px;
+  width: auto;
+  min-width: 100%;
+  min-height: 300px;
+  max-height: 50vh;
+  max-width: none;
+
+  vertical-align: middle; /* remove the vertical gap under inline level elements */
+
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);  
 }
 
 a.navbar-brand img {
