@@ -3,4 +3,4 @@ layout: page
 title: Ariana Carrazana
 ---
 
-![Aroama Carrazama Info](ari-carrazana-info.png)
+![Ariana Carrazana Info](ari-carrazana-info.png)
