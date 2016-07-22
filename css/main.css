@@ -33,7 +33,7 @@ div.carousel-inner div.item img {
   width: auto;
   min-width: 100%;
   min-height: 300px;
-  max-height: 50vh;
+  max-height: 45vh;
   max-width: none;
 
   vertical-align: middle; /* remove the vertical gap under inline level elements */
