@@ -20,13 +20,15 @@ navposition: 1
 {% endif %}
     <div class="media col-lg-6 col-md-6">
         <div class="media-left media-top">
-                {% if member.link %}
+                {% if member.link and member.local_page == null %}
                     {% assign truncate = member.link | truncate: 4, "" %}
                     {% if truncate != "http" %}
                     <a href="{{ 'http://' | append: member.link }}" target="_blank">
                     {% else %}
                     <a href="{{ member.link }}" target="_blank">
                     {% endif %}
+                {% elsif member.local_page %}
+                    <a href="{{ site.baseurl }}/personnel/{{ member.local_page | | slugify}}">
                 {% endif %}
 
                 {% if member.image %}
@@ -34,7 +36,7 @@ navposition: 1
                 {% else %}
                 <i class="media-object img-thumbnail fa fa-user fa-5x"></i>
                 {% endif %}
-            {% if member.link %}</a>{% endif %}
+            {% if member.link or member.local_page %}</a>{% endif %}
         </div>
         <div class="media-body">
             <h2 class="media-heading">{{ member.name }}</h2>

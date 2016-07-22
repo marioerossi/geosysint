@@ -1,13 +1,13 @@
-name,title,about,link,image
-Mario E. Rossi,President and Principal Geostatistician,Audits; Resource Estimations; Conditional Simulations; Grade Control;,,
-Jose Bassan,Senior Geologist,Exploration and Mine Geology; Resource Estimation; MineSight specialist,,
-Julio Bruna,Principal Geologist,Project Manager; Exploration and Mine Geology; Geologic Programs and Models; Resource Estimation,,
-Peter Brown,Principal Geologist,"Project Manager, Exploration Geology",,
-Ariana Carrazana,Senior Geologist,Exploration and Mine Geologist; QA/QC programs and databases,https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile,
-Centre for Computational Geostatistics,"University of Alberta, Edmonton","Software development; geostatistical modeling, mining, petroleum, environmental",http://www.ccgalberta.com/,ccg.jpg
-Fernando Dibona,Senior Resource Geologist,Resource Estimates and Audits; Database and Modeling; Vulcan Specialist,,
-Orestes Gomez Gonzalez,Senior Geologist and Geostatistician,Resource Estimates and Audits; Exploration Geology; Database and Modeling; Datamine Specialist,,
-"Inti Mining Smart Solutions, SAC (IMSS)",Strategic Mining Engineering Services,Strategic Mine Planning and Design,http://www.imss.com.pe,imss.jpg
-"Paul Satchwell, MTSI",Principal Mining Engineer/Project Manager,Project Management; Mining,,
-Timothy Strong,Resource Geologist,Resource Estimates and Audits; Exploration Geology; Database and Modeling; Datamine Specialist,,
-David Tutton,Principal Mining Engineer,"Independent Adviser, Mining",,
+name,title,about,local_page,image,link
+Mario E. Rossi,President and Principal Geostatistician,Audits; Resource Estimations; Conditional Simulations; Grade Control;,,,
+Jose Bassan,Senior Geologist,Exploration and Mine Geology; Resource Estimation; MineSight specialist,,,
+Julio Bruna,Principal Geologist,Project Manager; Exploration and Mine Geology; Geologic Programs and Models; Resource Estimation,,,
+Peter Brown,Principal Geologist,"Project Manager, Exploration Geology",peter-brown,,
+Ariana Carrazana,Senior Geologist,Exploration and Mine Geologist; QA/QC programs and databases,,,https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile
+Centre for Computational Geostatistics,"University of Alberta, Edmonton","Software development; geostatistical modeling, mining, petroleum, environmental",,ccg.jpg,http://www.ccgalberta.com/
+Fernando Dibona,Senior Resource Geologist,Resource Estimates and Audits; Database and Modeling; Vulcan Specialist,,,
+Orestes Gomez Gonzalez,Senior Geologist and Geostatistician,Resource Estimates and Audits; Exploration Geology; Database and Modeling; Datamine Specialist,,,
+"Inti Mining Smart Solutions, SAC (IMSS)",Strategic Mining Engineering Services,Strategic Mine Planning and Design,,imss.png,http://www.imss.com.pe
+"Paul Satchwell, MTSI",Principal Mining Engineer/Project Manager,Project Management; Mining,,,
+Timothy Strong,Resource Geologist,Resource Estimates and Audits; Exploration Geology; Database and Modeling; Datamine Specialist,,,
+David Tutton,Principal Mining Engineer,"Independent Adviser, Mining",,,

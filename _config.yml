@@ -26,3 +26,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path
+  members:
+    output: true
+    permalink: /personnel/:path
