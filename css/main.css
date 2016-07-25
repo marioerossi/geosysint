@@ -91,6 +91,7 @@ body {
   -webkit-animation: square 3s linear infinite;
   -ms-animation: square 3s linear infinite;
   animation: square 3s linear infinite;
+  background-clip: text;
   -webkit-background-clip: text;
   color:transparent;  
   text-align:center;
