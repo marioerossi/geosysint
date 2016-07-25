@@ -9,56 +9,27 @@ styles: searchbar.css
 navposition: 2
 ---
 
-<!-- TODO: Create 3 seperate category sub-categories -->
-<div class="row">
-    <ol class="breadcrumb">
-    <li class="active">Categories</li>
-    </ol>
 
-    <ul>
-        {% assign sorted_categories = site.data.project_categories | sort: "name" %}
-        {% for cat in sorted_categories %}
+<div class="row">
+    <div class="search-form">
+        <div class="form-group has-feedback">
+            <i class="fa fa-search form-control-feedback"></i>
+            <input type="text" class="form-control" name="search" id="search-projects" placeholder="Search">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <ul id="projects">
+        {% assign sorted_projects = site.projects | sort: "title" %}
+        {% for project in sorted_projects %}
         <li>
-            <a href="{{ cat.slug | prepend: "/categories/" | prepend: site.baseurl}}">{{ cat.name }}</a>
+            <a href="{{ site.baseurl }}{{ project.url | split:"/index" }}">{{ project.title }}</a>
         </li>
         {% endfor %}
     </ul>
 </div>
 
 <br>
-<br>
 
-<div class="row">
-    <a class="btn btn-info" role="button" data-toggle="collapse" href="#searchWell" aria-expanded="false" aria-controls="searchWell">
-        View All Projects
-    </a>
-</div>
-
-<div class="row">
-    <div class="collapse" id="searchWell">
-        <div class="well well-lg">
-            <div class="row">
-                <div class="search-form">
-                    <div class="form-group has-feedback">
-                        <i class="fa fa-search form-control-feedback"></i>
-                        <input type="text" class="form-control" name="search" id="search-projects" placeholder="Search">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <ul id="projects">
-                    {% assign sorted_projects = site.projects | sort: "title" %}
-                    {% for project in sorted_projects %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ project.url | split:"/index" }}">{{ project.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-
-<p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+<!-- <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->

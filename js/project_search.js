@@ -15,7 +15,7 @@ $(function () {
         }
 
         var search = $.trim($("#search-projects").val());
-        if (search == null || search == '') {
+        if (search === null || search === '') {
             toggleAll(true);
             return;
         }
@@ -37,7 +37,7 @@ $(function () {
     },
         function () {
             var search = $.trim($("#search-projects").val());
-            if (search == null || search == '') {
+            if (search === null || search === '') {
                 $(this).toggleClass("hover", false);
             }
         });

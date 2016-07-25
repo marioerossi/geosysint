@@ -31,7 +31,7 @@
 }
 .search-form .form-group:hover,
 .search-form .form-group.hover {
-  width: 50%;
+  width: 100%;
   border-radius: 25px 4px 4px 25px;
 }
 .search-form .form-group i.form-control-feedback {
