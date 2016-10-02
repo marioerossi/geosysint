@@ -6,42 +6,42 @@ title: Audits
  
 GeoSystems International, Inc., will make a site visit to review:
  
-Regional and local geological setting and genetic model for ore occurrence.
-Exploration programs including drilling and trenching.
-Location of holes and pits.
-Sample collection and preparation procedures.
-Assaying procedures, including check and duplicate assaying.
-Core or weight recovery.
-Sampling conditions, e.g. location of water table.
-Density determinations.
-Geological mapping and interpretation on sections and plans.
-Logging procedures.
-Ore and gangue mineralogy.
-Mineralization controls.
-Potential to add to reserves through additional exploration.
-Adequacy of exploration data to support mine operations.
-Procedures used to maintain mine maps and sections.
-Grade control procedures
+Regional and local geological setting and genetic model for ore occurrence. <br>
+Exploration programs including drilling and trenching. <br>
+Location of holes and pits. <br>
+Sample collection and preparation procedures. <br>
+Assaying procedures, including check and duplicate assaying. <br>
+Core or weight recovery. <br>
+Sampling conditions, e.g. location of water table. <br>
+Density determinations. <br>
+Geological mapping and interpretation on sections and plans. <br>
+Logging procedures. <br>
+Ore and gangue mineralogy. <br>
+Mineralization controls. <br>
+Potential to add to reserves through additional exploration. <br>
+Adequacy of exploration data to support mine operations. <br>
+Procedures used to maintain mine maps and sections. <br>
+Grade control procedures <br>
 
 ### Mineral Resources and Reserves
  
-Sampling database construction.
-Topographic and hole location surveys, including downhole surveys.
-Assignment of lithological, ore type or other attributes to blocks.
-Compositing methods.
-Exploratory data analysis: histograms, scatterplots, etc.
-Variography. 
-Interpolation methodology used to assign grades to blocks.
-In situ mineral inventory tabulation.
-Recoverable reserves, including dilution or recovery factors.
+Sampling database construction. <br>
+Topographic and hole location surveys, including downhole surveys. <br>
+Assignment of lithological, ore type or other attributes to blocks. <br>
+Compositing methods. <br>
+Exploratory data analysis: histograms, scatterplots, etc. <br>
+Variography.  <br>
+Interpolation methodology used to assign grades to blocks. <br>
+In situ mineral inventory tabulation. <br>
+Recoverable reserves, including dilution or recovery factors. <br>
 Mineable and recoverable reserves.
-Reserve depletion based on exploration data in production schedule if applicable.
-Blast hole reserves or planning reserves from which ore/waste selection is made if applicable.
-Stockpile accounting, mine-mouth sampling and mill head sampling procedures if applicable.
-Metallurgical accounting procedures used to determine received at mill quantities and grades if applicable.
-Production histories for stopes, mineralized ore bodies or other major planning units in terms of in situ and recoverable reserves if applicable. 
-Grade versus extraction factors will be reviewed for stopes if applicable.
-Sources of dilution (planned, unplanned) and ore loss if applicable.
+Reserve depletion based on exploration data in production schedule if applicable. <br>
+Blast hole reserves or planning reserves from which ore/waste selection is made if applicable. <br>
+Stockpile accounting, mine-mouth sampling and mill head sampling procedures if applicable. <br>
+Metallurgical accounting procedures used to determine received at mill quantities and grades if applicable. <br>
+Production histories for stopes, mineralized ore bodies or other major planning units in terms of in situ and recoverable reserves if applicable. <br>
+Grade versus extraction factors will be reviewed for stopes if applicable. <br>
+Sources of dilution (planned, unplanned) and ore loss if applicable. <br>
  
 
 
