@@ -5,44 +5,47 @@ title: Audits
 ## Geology
  
 GeoSystems International, Inc., will make a site visit to review:
- 
-Regional and local geological setting and genetic model for ore occurrence. <br>
-Exploration programs including drilling and trenching. <br>
-Location of holes and pits. <br>
-Sample collection and preparation procedures. <br>
-Assaying procedures, including check and duplicate assaying. <br>
-Core or weight recovery. <br>
-Sampling conditions, e.g. location of water table. <br>
-Density determinations. <br>
-Geological mapping and interpretation on sections and plans. <br>
-Logging procedures. <br>
-Ore and gangue mineralogy. <br>
-Mineralization controls. <br>
-Potential to add to reserves through additional exploration. <br>
-Adequacy of exploration data to support mine operations. <br>
-Procedures used to maintain mine maps and sections. <br>
-Grade control procedures <br>
+
+<ul>
+<li> Regional and local geological setting and genetic model for ore occurrence.</li> 
+<li> Exploration programs including drilling and trenching.</li>
+<li> Location of holes and pits.</li>
+<li> Sample collection and preparation procedures.</li>
+<li> Assaying procedures, including check and duplicate assaying. </li> 
+<li> Core or weight recovery. </li> 
+<li> Sampling conditions, e.g. location of water table. </li>
+<li> Density determinations. </li>
+<li> Geological mapping and interpretation on sections and plans. </li>
+<li> Logging procedures. </li>
+<li> Ore and gangue mineralogy. </li>
+<li> Mineralization controls. </li>
+<li> Potential to add to reserves through additional exploration. </li>
+<li> Adequacy of exploration data to support mine operations. </li>
+<li> Procedures used to maintain mine maps and sections. </li>
+<li> Grade control procedures. </li>
+</ul>
 
 ### Mineral Resources and Reserves
  
-Sampling database construction. <br>
-Topographic and hole location surveys, including downhole surveys. <br>
-Assignment of lithological, ore type or other attributes to blocks. <br>
-Compositing methods. <br>
-Exploratory data analysis: histograms, scatterplots, etc. <br>
-Variography.  <br>
-Interpolation methodology used to assign grades to blocks. <br>
-In situ mineral inventory tabulation. <br>
-Recoverable reserves, including dilution or recovery factors. <br>
-Mineable and recoverable reserves.
-Reserve depletion based on exploration data in production schedule if applicable. <br>
-Blast hole reserves or planning reserves from which ore/waste selection is made if applicable. <br>
-Stockpile accounting, mine-mouth sampling and mill head sampling procedures if applicable. <br>
-Metallurgical accounting procedures used to determine received at mill quantities and grades if applicable. <br>
-Production histories for stopes, mineralized ore bodies or other major planning units in terms of in situ and recoverable reserves if applicable. <br>
-Grade versus extraction factors will be reviewed for stopes if applicable. <br>
-Sources of dilution (planned, unplanned) and ore loss if applicable. <br>
- 
+<ul>
+<li> Sampling database construction.</li>
+<li> Topographic and hole location surveys, including downhole surveys.</li>
+<li> Assignment of lithological, ore type or other attributes to blocks.</li>
+<li> Compositing methods.</li>
+<li> Exploratory data analysis: histograms, scatterplots, etc.</li>
+<li> Variography.</li>
+<li> Interpolation methodology used to assign grades to blocks.</li>
+<li> In situ mineral inventory tabulation.</li>
+<li> Recoverable reserves, including dilution or recovery factors.</li>
+<li> Mineable and recoverable reserves.</li>
+<li> Reserve depletion based on exploration data in production schedule if applicable.</li>
+<li> Blast hole reserves or planning reserves from which ore/waste selection is made if applicable.</li>
+<li> Stockpile accounting, mine-mouth sampling and mill head sampling procedures if applicable.</li>
+<li> Metallurgical accounting procedures used to determine received at mill quantities and grades if applicable.</li>
+<li> Production histories for stopes, mineralized ore bodies or other major planning units in terms of in situ and recoverable reserves if applicable.</li>
+<li> Grade versus extraction factors will be reviewed for stopes if applicable.</li>
+<li> Sources of dilution (planned, unplanned) and ore loss if applicable.</li>
+</ul> 
 
 
 ## Plan of Execution
