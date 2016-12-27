@@ -26,7 +26,7 @@ navposition: 1
                     <a href="{{ member.link }}" target="_blank">
                     {% endif %}
                 {% elsif member.local_page %}
-                    <a href="{{ site.baseurl }}/personnel/{{ member.local_page | | slugify}}">
+                    <a href="{{ site.baseurl }}/personnel/{{ member.local_page | slugify}}">
                 {% endif %}
 
                 {% if member.image %}
