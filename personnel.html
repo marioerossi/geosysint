@@ -19,7 +19,8 @@ navposition: 1
         <div class="media-left media-top">
                 {% if member.link and member.local_page == null %}
                     {% assign truncate = member.link | truncate: 4, "" %}
-                    {% if truncate != "http" %}
+                    {% assign truncate2 = truncate | truncate: 1, "" %}
+                    {% if truncate != "http" and truncate2 != "/" %}
                     <a href="{{ 'http://' | append: member.link }}" target="_blank">
                     {% else %}
                     <a href="{{ member.link }}" target="_blank">
