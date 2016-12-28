@@ -22,6 +22,8 @@
   {% for style in page.styles %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ style }}">
   {% endfor %}
+  {% elsif page.layout == "project" %} {% comment %} This is a work arround preventing the need to specify this css file in *each* project yaml front matter. {% endcomment %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/blueimp-gallery.min.css">
   {% endif %}
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

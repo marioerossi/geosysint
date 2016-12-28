@@ -3,11 +3,24 @@
 
 {% include head.html %}
 
-<body class="radial-color">    
+<body class="radial-color">
+    {% if page.layout == "project" %}
+    <!-- Lightbox gallery -->
+    <div id="blueimp-gallery" class="blueimp-gallery" data-start-slideshow="false">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    {% endif %}
+
     {{ content }}
     
     <!-- jQuery -->
-    <script src="{{ "/js/jquery-2.2.1.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery-2.2.4.min.js" | prepend: site.baseurl }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
@@ -16,6 +29,8 @@
     {% for script in page.scripts %}
     <script src="{{ site.baseurl }}/js/{{ script }}"></script>
     {% endfor %}
+    {% elsif page.layout == "project" %} {% comment %} This is a work arround preventing the need to specify this css file in *each* project yaml front matter. {% endcomment %}
+    <script src="{{ site.baseurl }}/js/jquery.blueimp-gallery.min.js"></script>
     {% endif %}
 </body>
 
