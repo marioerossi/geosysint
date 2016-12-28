@@ -52,12 +52,6 @@ a.navbar-brand img {
   margin-top: -7px;
 }
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
