@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Antapaccay
+subtitle: Resource and Reserve Audit
 ---
 
 The Antapaccay copper mine is located in the Yauri district of Espinar

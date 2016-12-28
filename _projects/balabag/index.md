@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Balabag
+subtitle: Resource Review/Resource Estimation
 ---
 
 The Balabag deposit contains gold mineralization typical of

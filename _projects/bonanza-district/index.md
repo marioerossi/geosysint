@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Bonanza District
+subtitle: Resource Estimation
 ---
 
 The Bonanza District and producing mines are located in northeast

@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Kings Valley Lithium Project
+title: Kings Valley Lithium 
+subtitle: Resource Estimation
 ---
 
 The Kings Valley project is located in Humboldt County, Nevada, USA

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Piedras Verdes
+subtitle: Resource Audit; Resource Estimation; Grade Control; Mine Planning 
 ---
 
 Cobre Del Mayo controls a portfolio of 30 titled mining concessions

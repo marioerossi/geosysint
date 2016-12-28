@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Puquios
+subtitle: Resource Estimation
 ---
 
 The project is located in the commune of La Higuera, nearly 130 km

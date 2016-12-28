@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Bajo El Durazno
+subtitle: Resource Review and Support
 ---
 
 The Bajo El Durazo (BED) copper-gold project in Argentina is satellite

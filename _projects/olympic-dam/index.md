@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Olympic Dam
+subtitle: Resource Estimation; Resource Development Suppoprt; Geometallurgical Models; Conditional Simulations; Feasibility Grade Control
 ---
 
 The Olympic Dam is a huge mining centre located in South Australia, 560

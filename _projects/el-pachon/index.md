@@ -1,6 +1,7 @@
 ---
 layout: project
 title: El Pachón
+subtitle: Resource Audits
 ---
 
 The El Pachón project was first announced as a binational project under

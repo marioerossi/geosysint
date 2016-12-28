@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Bajo de la Alumbrera 
+subtitle: Resource Audits
 ---
 
 The Bajo de la Alumbrera (Alumbrera) copper-gold mine in Argentina is

@@ -1,6 +1,7 @@
 ---
 layout: project
-title: CH217 Gold Mine 
+title: Chang Shan Hao 
+subtitle: Resource Estimation
 ---
 
 Chang Shan Hao (217) deposit, commonly abbreviated to CSH 217 is an open

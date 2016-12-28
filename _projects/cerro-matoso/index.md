@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Cerro Matoso 
+subtitle: Resource ad Reserve Audit; Resource Estimation; Conditional Simulations; Selectivity Studies
 ---
 
 BHP Billiton’s Cerro Matoso nickel operation is situated in Columbia and

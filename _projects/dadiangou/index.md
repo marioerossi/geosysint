@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Dadiangou
+subtitle: Resource Estimation
 ---
 
 The Dadiangou project is located in SE Gansu Province, central China.

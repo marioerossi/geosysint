@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Beyinhar
+subtitle: Resource Estimation
 ---
 
 Golden China's 95% owned Beyinhar gold project lies within the Inner\

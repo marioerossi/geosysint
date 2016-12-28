@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Josemaría
+subtitle: Resource Estimation
 ---
 
 The Josemaría Project is located near the northern limits of Iglesia

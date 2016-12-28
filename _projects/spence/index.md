@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Spence
+subtitle: Resource Audit; Conditional Simulations; Grade Control; Medium and Long-term Resource Models
 ---
 
 BHP Billiton's Spence copper cathode project is located 1,700m above sea

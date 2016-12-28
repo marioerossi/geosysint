@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Zafranal
+subtitle: Resource Audit; Resource Estimation
 ---
 
 The Property is located in southern Perú about 150 km by road (90 km

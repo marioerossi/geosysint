@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Yaoure
+subtitle: Resource Estimation
 ---
 
 The Yaoure Gold Project is located in central Côte d’Ivoire in West

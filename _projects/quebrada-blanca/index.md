@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Quebrada Blanca
+subtitle: Resource Estimation Review; Grade Control Review
 ---
 
 The Quebrada Blanca mine is located in Region I in northern Chile at an

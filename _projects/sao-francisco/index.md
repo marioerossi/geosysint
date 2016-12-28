@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Sao Francisco
+subtitle: Resource Estimation
 ---
 
 The Sao Francisco Mine, located in western Mato Grosso State, Brazil, is
@@ -21,7 +22,7 @@ The Sao Francisco deposit is an epigenetic shear-hosted and structurally
 controlled lode gold orebody, composed of one centimetre to five
 centimetre wide, sericitic quartz veins containing free gold. The
 orebody occurs in a hydrothermal alteration zone along the axial plane
-of an anticlinal foldwithin the basal Fortuna Formation of a 1,200
+of an anticlinal fold within the basal Fortuna Formation of a 1,200
 metre-thick sequence of clastic sediments known as the Aguapeí Group.
 Gold occurs as free gold and frequently as coarse nuggets associated
 with quartz, as laminations along the fracture planes, and within

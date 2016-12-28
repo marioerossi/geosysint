@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Collahuasi
+subtitle: Resource Review; Resource Estimation; Grade Control; Geometallurgical Model; Geotechnical Model; Conditional Simulations
 ---
 
 Collahuasi copper mine is situated in northern Chile, about 180km

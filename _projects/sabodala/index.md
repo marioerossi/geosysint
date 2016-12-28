@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Sabodala
+subtitle: Resource Estimation
 ---
 
 Sabodala is located in Senegal, some 650 km east of the capital Dakar.
