@@ -2,10 +2,6 @@
 layout: project
 title: Josemaría
 ---
-(Source: 2007 NI 43-101 Report)
-
-![Josemaria\_location.png](media/image01.png){width="6.197916666666667in"
-height="4.864583333333333in"}
 
 The Josemaría Project is located near the northern limits of Iglesia
 Department, in northern San Juan province, western Argentina

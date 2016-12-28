@@ -2,12 +2,6 @@
 layout: project
 title: Sao Francisco
 ---
-(Source:
-http://www.auraminerals.com/Operations/Sao-Francisco/Project-Summary/default.aspx
-)
-
-![saofran1.jpg](media/image01.jpg){width="6.5in"
-height="1.1805555555555556in"}
 
 The Sao Francisco Mine, located in western Mato Grosso State, Brazil, is
 50 kilometres southeast of the Sao Vicente Mine, and at the center of a

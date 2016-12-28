@@ -3,11 +3,6 @@ layout: project
 title: Balabag
 ---
 
-(Source: NI 43-101 Technical Report)
-
-![bal\_location.jpg](media/image01.jpg){width="5.864583333333333in"
-height="4.822916666666667in"}
-
 The Balabag deposit contains gold mineralization typical of
 low-sulphidation epithermal vein-type deposits, and is characterized by
 quartz veining, which exhibit a en echelon pattern and silica

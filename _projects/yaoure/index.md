@@ -3,11 +3,6 @@ layout: project
 title: Yaoure
 ---
 
-(Source: Internal Technical Report, December 2015)
-
-![yaoure.jpg](media/image01.jpg){width="4.479166666666667in"
-height="2.7083333333333335in"}
-
 The Yaoure Gold Project is located in central Côte d’Ivoire in West
 Africa, 40 km northwest of Yamoussoukro, the political capital, and 270
 km northwest of Abidjan, the commercial capital of Côte d’Ivoire.

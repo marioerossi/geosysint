@@ -2,10 +2,6 @@
 layout: project
 title: Quebrada Blanca
 ---
-(Source:http://www.teckchile.com/Generic.aspx?PAGE=Teck%20Site/Diversified%20Mining%20Pages/Copper%20Pages/Quebrada%20Blanca)
-
-![QBlanca.JPG](media/image01.jpg){width="6.5in"
-height="4.319444444444445in"}
 
 The Quebrada Blanca mine is located in Region I in northern Chile at an
 elevation of 4,400 metres, approximately 240 kilometres southeast of the

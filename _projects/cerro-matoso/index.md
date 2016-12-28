@@ -3,12 +3,6 @@ layout: project
 title: Cerro Matoso 
 ---
 
-(Source:
-[*www.mining-technology.com*](http://www.mining-technology.com))
-
-![DSC\_8088.JPG](media/image01.jpg){width="6.5in"
-height="2.8055555555555554in"}
-
 BHP Billiton’s Cerro Matoso nickel operation is situated in Columbia and
 combines a lateritic nickel ore deposit with a low-cost ferronickel
 smelter. It is the world’s second-largest producer of ferronickel and

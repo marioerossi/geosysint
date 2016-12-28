@@ -3,11 +3,6 @@ layout: project
 title: Bajo de la Alumbrera 
 ---
 
-(Source:
-[*www.mining-technology.com*](http://www.mining-technology.com))
-
-![](media/image01.png){width="4.166666666666667in" height="4.3125in"}
-
 The Bajo de la Alumbrera (Alumbrera) copper-gold mine in Argentina is
 owned and operated by Minera Alumbrera (MAA). It commenced commercial
 operation in February 1998. The mine is located in Catamarca province,

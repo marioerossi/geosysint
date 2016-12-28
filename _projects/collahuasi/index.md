@@ -3,11 +3,6 @@ layout: project
 title: Collahuasi
 ---
 
-(Source: http://www.mining-technology.com/projects/collahuasi)
-
-![Colla\_EW\_plant.jpg](media/image01.jpg){width="5.208333333333333in"
-height="3.1666666666666665in"}
-
 Collahuasi copper mine is situated in northern Chile, about 180km
 southeast of the port of Iquique, at an altitude of 4,000m. The The mine
 is 44%-owned by Xstrata plc (following its acquisition of Falconbridge

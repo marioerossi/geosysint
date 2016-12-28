@@ -3,13 +3,6 @@ layout: project
 title: Antamina
 ---
 
-(Source:
-[*www.mining-technology.com*](http://www.mining-technology.com))
-
-![Antamina Copper-Zinc Mine, Peru
-](media/image01.jpg "Antamina Copper-Zinc Mine, Peru "){width="5.986111111111111in"
-height="3.888888888888889in"}
-
 The Antamina copper-zinc mine is located in the Andes Mountains of Peru,
 approximately 285km north of Lima in the Department of Ancash. The
 elevation of the mine is 4,300m above sea level.

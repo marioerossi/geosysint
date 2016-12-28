@@ -3,11 +3,6 @@ layout: project
 title: Bonanza District
 ---
 
-(Source: NI 43-101 Technical Report, June 2003)
-
-![Bonanza.jpg](media/image01.jpg){width="6.5in"
-height="4.069444444444445in"}
-
 The Bonanza District and producing mines are located in northeast
 Nicaragua near the west central border of Region Autonoma Atlantica
 Norte (RAAN).

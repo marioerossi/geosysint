@@ -3,10 +3,6 @@ layout: project
 title: Puquios
 ---
 
-(Source: Cuprum Resources’ Internal Reports)
-
-![Puquios.JPG](media/image01.jpg){width="6.5in" height="4.875in"}
-
 The project is located in the commune of La Higuera, nearly 130 km
 northeast of La Serena, in the province of Elqui, Coquimbo region,
 northern Chile.

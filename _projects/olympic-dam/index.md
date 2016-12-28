@@ -3,11 +3,6 @@ layout: project
 title: Olympic Dam
 ---
 
-(Source: http://www.mining-technology.com/projects/olympic-dam)
-
-![olympic-dam.jpg](media/image01.jpg){width="4.479166666666667in"
-height="3.1875in"}
-
 The Olympic Dam is a huge mining centre located in South Australia, 560
 km north-west of Adelaide. Home to a major oxide copper gold deposit
 producing copper, uranium, gold and silver, the site hosts an
