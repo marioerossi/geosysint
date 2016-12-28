@@ -17,6 +17,7 @@ navposition: 1
 {% endif %}
     <div class="media col-lg-6 col-md-6">
         <div class="media-left media-top">
+                {% capture memberLink %}
                 {% if member.link and member.local_page == null %}
                     {% assign truncate = member.link | truncate: 4, "" %}
                     {% assign truncate2 = truncate | truncate: 1, "" %}
@@ -28,6 +29,8 @@ navposition: 1
                 {% elsif member.local_page %}
                     <a href="{{ site.baseurl }}/personnel/{{ member.local_page | slugify}}">
                 {% endif %}
+                {% endcapture %}
+                {{ memberLink }}
 
                 {% if member.image %}
                 <img class="media-object img-thumbnail" style="max-width: 128px; max-height: 128px" src="{{ site.baseurl }}/img/members/{{ member.image }}" alt="{{ member.name }}">
@@ -37,7 +40,7 @@ navposition: 1
             {% if member.link or member.local_page %}</a>{% endif %}
         </div>
         <div class="media-body">
-            <h2 class="media-heading">{{ member.name }}</h2>
+            {{ memberLink }}<h2 class="media-heading">{{ member.name }}</h2></a>
             {% if member.title %}<h5><i>{{ member.title }}</i></h5>{% endif %}
             {% if member.about %}
                 {{ member.about | markdownify | smartify }}
