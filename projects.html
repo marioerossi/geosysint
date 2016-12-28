@@ -24,7 +24,7 @@ navposition: 2
         {% assign sorted_projects = site.projects | sort: "title" %}
         {% for project in sorted_projects %}
         <li>
-            <a title="{{ project.excerpt | strip_html }}" href="{{ site.baseurl }}{{ project.url | split:'/index' }}">
+            <a title="{{ project.excerpt | strip_html | strip_newlines | truncate: 160 }}" href="{{ site.baseurl }}{{ project.url | split:'/index' }}">
             {{ project.title }}
             {% if project.subtitle != null and project.subtitle != blank %}
             : {{ project.subtitle }}

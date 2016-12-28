@@ -11,7 +11,7 @@ body {
 }
 
 .satinweave {
-  background-image: url("../img/satinweave.png");
+  background-image: /* satinweave.png */ url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAMAAABP7o1HAAAACVBMVEXx8fHv7+/y8vLz1QQmAAAAO0lEQVR42nWPAQoAIAgD1f8/OqlDiMPBYKk7KFoZ9fmpGOQc3FmLh5oEN80nm082H5uPzcfi01x/vi4OcRwAu6bHHywAAAAASUVORK5CYII=');
   background-color: #e6e6e6;
 }
 
@@ -50,6 +50,12 @@ a.navbar-brand img {
   width: 125px;
   height: auto;
   margin-top: -7px;
+}
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 /* Sticky footer styles
