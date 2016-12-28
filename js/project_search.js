@@ -34,13 +34,18 @@ $(function () {
         }
     });
 
-    $('.search-form .form-group').hover(function () {
+    function hoverOn() {
         $(this).toggleClass("hover", true);
-    },
-        function () {
-            var search = $.trim($("#search-projects").val());
-            if (search === null || search === '') {
-                $(this).toggleClass("hover", false);
-            }
-        });
+    }
+
+    function hoverOff() {
+        var search = $.trim($("#search-projects").val());
+        if (search === null || search === '') {
+            $(this).toggleClass("hover", false);
+        }
+    }
+
+    $('.search-form .form-group').hover(hoverOn, hoverOff);
+    $('.search-form .form-group').focusin(hoverOn);
+    $('.search-form .form-group').focusout(hoverOff);
 });
