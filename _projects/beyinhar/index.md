@@ -3,9 +3,6 @@ layout: project
 title: Beyinhar
 ---
 
-(Source:
-http://www.newswire.ca/news-releases/golden-chinas-beyinhar-project-scoping-study-indicates-production-costs-of-us280oz---company-commences-feasibility-study-533641861.html)
-
 Golden China's 95% owned Beyinhar gold project lies within the Inner\
 Mongolia Fold Belt Region, a productive orogenic belt hosting several
 skarn,\

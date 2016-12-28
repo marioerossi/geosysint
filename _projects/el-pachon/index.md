@@ -3,11 +3,6 @@ layout: project
 title: El Pachón
 ---
 
-(Source: www.bnamericas.com)
-
-![pachon.jpg](media/image01.jpg){width="6.5in"
-height="4.069444444444445in"}
-
 The El Pachón project was first announced as a binational project under
 the Chile-Argentina mining integration treaty entered into by both
 countries in 1997.

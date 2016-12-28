@@ -3,11 +3,6 @@ layout: project
 title: Bajo El Durazno
 ---
 
-(Source: MAA’s Internal Report)
-
-![Bajo2.png](media/image01.png){width="3.8645833333333335in"
-height="3.8541666666666665in"}
-
 The Bajo El Durazo (BED) copper-gold project in Argentina is satellite
 to the Bajo de la Alumbrera deposit, owned and operated by Minera
 Alumbrera (MAA). It commenced stripping in November 2015.

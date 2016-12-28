@@ -2,11 +2,6 @@
 layout: project
 title: Las Bambas
 ---
-(Source:
-http://www.mmg.com/en/Our-Operations/Mining-operations/Las-Bambas.aspx)
-
-![lasbambas1.jpg](media/image01.jpg){width="2.0833333333333335in"
-height="1.1666666666666667in"}
 
 Las Bambas is a large, long-life copper development project at an
 advanced stage of construction, located in Cotabambas, Apurimac region

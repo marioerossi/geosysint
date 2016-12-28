@@ -2,10 +2,6 @@
 layout: project
 title: Sabodala
 ---
-(Source:http://www.mining-technology.com/projects/sabodala/)
-
-![sabodala\_1.jpg](media/image01.jpg){width="6.25in"
-height="4.166666666666667in"}
 
 Sabodala is located in Senegal, some 650 km east of the capital Dakar.
 The project contains two deposits – Sabodala and Niakafiri – which lie

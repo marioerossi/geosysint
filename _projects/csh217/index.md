@@ -3,11 +3,6 @@ layout: project
 title: CH217 Gold Mine 
 ---
 
-(Source:http://www.chinagoldintl.com/operations/csh)
-
-![1\_Crushing\_system\_-\_Panorama\_tn.jpg](media/image01.jpg){width="4.166666666666667in"
-height="2.78125in"}
-
 Chang Shan Hao (217) deposit, commonly abbreviated to CSH 217 is an open
 pit operation that utilises conventional mining methods. Ore is
 processed using heap-leaching methods. Expansion of heap leaching and

@@ -2,10 +2,6 @@
 layout: project
 title: Zafranal
 ---
-(Source: Internal Technical Report, September 2015)
-
-![zaf1.jpg](media/image01.jpg){width="6.5in"
-height="3.0277777777777777in"}
 
 The Property is located in southern Perú about 150 km by road (90 km
 straight-line distance) northwest of the city of Arequipa on the border

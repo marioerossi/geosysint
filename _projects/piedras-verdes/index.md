@@ -2,11 +2,6 @@
 layout: project
 title: Piedras Verdes
 ---
-(Source:
-http://cobredelmayo.com/corporate/project-description/default.aspx)
-
-![Piedras-Verdes-1.jpg](media/image01.jpg){width="6.5in"
-height="4.319444444444445in"}
 
 Cobre Del Mayo controls a portfolio of 30 titled mining concessions
 encompassing an area of \~57k hectares, including one recently acquired

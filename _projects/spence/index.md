@@ -3,11 +3,6 @@ layout: project
 title: Spence
 ---
 
-(Source:
-[*http://www.mining-technology.com/projects/spence\_copper*](http://www.mining-technology.com/projects/spence_copper))
-
-![spence1.JPG](media/image01.jpg){width="6.5in" height="4.875in"}
-
 BHP Billiton's Spence copper cathode project is located 1,700m above sea
 level in the Atacama Desert in northern Chile, close to the mining town
 of Sierra Gorda, 50 km south west of Calama and 150 km NE of

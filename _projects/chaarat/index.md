@@ -2,11 +2,6 @@
 layout: project
 title: Chaarat
 ---
-(Source: [*www.chaarat.com*](http://www.chaarat.com) -Chaarat Gold
-Holdings Ltd. website)
-
-![DSC\_0068.JPG](media/image01.jpg){width="6.5in"
-height="4.333333333333333in"}
 
 The Chaarat Property is located at latitude 42°1’12” N and longitude
 71°9’84” E in the Sandalash Range of the Alatau Mountains in the Chatkal

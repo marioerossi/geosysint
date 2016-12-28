@@ -3,12 +3,6 @@ layout: project
 title: Kings Valley Lithium Project
 ---
 
-(Source: NI 43-101 Technical Report, May 2016)
-
-![Kings Valley\_NI 43-101\_2CL020
-000\_20160531.jpg](media/image01.jpg){width="6.5in"
-height="4.152777777777778in"}
-
 The Kings Valley project is located in Humboldt County, Nevada, USA
 approximately 100 km N-NW of Winnemucca. There are five areas of lithium
 mineralization. These five areas are covered by approximately 2,500

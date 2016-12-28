@@ -3,13 +3,6 @@ layout: project
 title: Dadiangou
 ---
 
-
-(Source: Jinshan Gold Mines Internal Reports and Press Releases,
-2007-2008)
-
-![DSC\_0207.JPG](media/image01.jpg){width="6.5in"
-height="4.319444444444445in"}
-
 The Dadiangou project is located in SE Gansu Province, central China.
 Liangdang County Town is 35 km directly south of the property. Xian, the
 Provincial capital of Shaanxi Province, is 240 km due east and the
