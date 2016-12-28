@@ -1,36 +1,38 @@
 $(function () {
-    var projects = [];
+    var projects = $("#projects > li");
+    var projectsList = $("#projects");
 
-    $('#projects > li > a:first-child').each(function (index) {
-        projects.push($(this).text());
-    })
-
-    var f = new Fuse(projects);
+    var options = {
+        id: "",
+        caseSensitive: false,
+        shouldSort: true,
+        threshold: 0.4,
+        location: 0,
+        distance: 50,
+        maxPatternLength: 32,
+        keys: ["innerText"]
+    };
+    var fuse = new Fuse(projects, options);
 
     function handleSearch() {
-        function toggleAll(bool) {
-            $('#projects > li').each(function (index) {
-                $(this).toggle(bool);
-            });
-        }
-
-        var search = $.trim($("#search-projects").val());
-        if (search === null || search === '') {
-            toggleAll(true);
-            return;
-        }
-        search = search.substring(0, 32); // Fuse suports a maximum length of 32
-        var result = f.search(search);
-        if (result.length === 0) {
-            toggleAll(false);
-        } else {
-            $('#projects > li').each(function (index) {
-                $("#search-projects").toggle(!$.inArray(index, result));
-            });
-        }
+        var search = $.trim($("#search-projects").val()).substring(0, options.maxPatternLength);
+        var result = search === "" || search === null ? projects : fuse.search(search);
+        for (var i = 0; i < projects.length; i++)
+            projects[i].remove();
+        for (var i = 0; i < result.length; i++)
+            projectsList.append(result[i]);
     }
 
-    $('#search-projects').keyup(handleSearch);
+    var inputBox = $('#search-projects');
+    var oldInput = inputBox.val();
+    inputBox.on('input', function (e) {
+        var newVal = inputBox.val();
+        if (oldInput != newVal) {
+            handleSearch();
+            console.log("HIAZ");
+            oldInput = newVal
+        }
+    });
 
     $('.search-form .form-group').hover(function () {
         $(this).toggleClass("hover", true);
