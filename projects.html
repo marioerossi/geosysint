@@ -20,11 +20,16 @@ navposition: 2
 </div>
 
 <div class="row">
-    <ul id="projects">
+    <ul id="projects"> <!-- TODO: Present projects in a nicer manner -->
         {% assign sorted_projects = site.projects | sort: "title" %}
         {% for project in sorted_projects %}
         <li>
-            <a href="{{ site.baseurl }}{{ project.url | split:'/index' }}">{{ project.title }}</a>
+            <a title="{{ project.excerpt | strip_html }}" href="{{ site.baseurl }}{{ project.url | split:'/index' }}">
+            {{ project.title }}
+            {% if project.subtitle != null and project.subtitle != blank %}
+            : {{ project.subtitle }}
+            {% endif %}
+            </a>
         </li>
         {% endfor %}
     </ul>
