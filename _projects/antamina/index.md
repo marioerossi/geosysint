@@ -2,6 +2,8 @@
 layout: project
 title: Antamina
 subtitle: Resource Audits; Grade Control; Conditional Simulations; Optimization Studies
+album-id: tPSNZ
+thumbnail-size: 2
 ---
 
 The Antamina copper-zinc mine is located in the Andes Mountains of Peru,

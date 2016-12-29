@@ -12,5 +12,5 @@ layout: page
 <hr>
 
 {% if page.album-id != null and page.album-id != blank %}
-<div id="images" data-album-id="{{ page.album-id }}"></div>
+<div id="images" data-album-id="{{ page.album-id }}" {% if page.thumbnail-size != null %}data-thumbnail-size="{{ page.thumbnail-size }}"{% endif %}></div>
 {% endif %}

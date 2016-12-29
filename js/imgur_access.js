@@ -32,16 +32,18 @@ $(function () {
 
     function loadImages() {
         var id = $images.data('album-id');
+        const thumbnailChars = ['s', 'b', 't', 'm', 'l', 'h'];
+        var thumbnailChar = thumbnailChars[$images.data('thumbnail-size')] || 'b';
         getAlbumImages(id, function (images) {
             images.forEach(function (image, index) {
-                // thumbnail chars: s, b, t, m, l, h
                 var index = image.link.lastIndexOf('.');
-                var thumbnail = image.link.slice(0, index) + 't' + image.link.slice(index);
-                var title = !image.title || image.title == 'null' ? '' : image.title;
+                var thumbnail = image.link.slice(0, index) + thumbnailChar + image.link.slice(index);
+                var title = !image.title || image.title == 'null' ? undefined : image.title;
+                var description = !image.description || image.description == 'null' ? undefined : image.description;
                 $('<a/>')
-                    .append($('<img>').prop('src', thumbnail).prop('title', title))
+                    .append($('<img>').prop('src', thumbnail).prop('alt', description))
                     .prop('href', image.link)
-                    .prop('title', title)
+                    .prop('title', description)
                     .attr('data-gallery', '')
                     .appendTo($images)
             });
