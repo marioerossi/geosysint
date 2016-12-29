@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <body class="radial-color">
-    {% if page.layout == "project" %}
+    {% if page.album-id != null and page.album-id != blank %}
     <!-- Lightbox gallery -->
     <div id="blueimp-gallery" class="blueimp-gallery" data-start-slideshow="false">
         <div class="slides"></div>
