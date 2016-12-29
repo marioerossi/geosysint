@@ -13,17 +13,19 @@ $(function () {
     function getAlbumImages(id, success, error) {
         $.ajax({
             url: 'https://api.imgur.com/3/album/' + encodeURIComponent(id) + '/images',
+            localCache: true, // localStorage.clear() to reset this cache
+            cacheTTL: 12, // In hours.
+            cacheKey: 'imgur_album-' + id,
             type: 'GET',
             cache: true,
+            dataType: 'json',
             headers: {
                 Authorization: 'Client-ID ' + clientId,
                 Accept: 'application/json'
-            },
-            success: function (result) {
-                success(result.data)
-            },
-            error: error
-        });
+            }
+        }).done(function (response) {
+            success(response.data)
+        }).fail(error);
     }
 
     var $images = $('#images');
@@ -36,7 +38,12 @@ $(function () {
                 var index = image.link.lastIndexOf('.');
                 var thumbnail = image.link.slice(0, index) + 't' + image.link.slice(index);
                 var title = !image.title || image.title == 'null' ? '' : image.title;
-                $images.append('<a href="{0}" title="{1}" data-gallery><img src="{2}" alt="{3}"></a>'.format(image.link, title, thumbnail, title));
+                $('<a/>')
+                    .append($('<img>').prop('src', thumbnail).prop('title', title))
+                    .prop('href', image.link)
+                    .prop('title', title)
+                    .attr('data-gallery', '')
+                    .appendTo($images)
             });
         });
     }
