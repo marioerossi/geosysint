@@ -2,6 +2,8 @@
 layout: project
 title: Las Bambas
 subtitle: Resource Audit
+album-id: 5f5JV
+thumbnail-size: 2
 ---
 
 Las Bambas is a large, long-life copper development project at an

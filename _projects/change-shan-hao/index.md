@@ -2,6 +2,8 @@
 layout: project
 title: Chang Shan Hao 
 subtitle: Resource Estimation
+album-id: 2glUS
+thumbnail-size: 2
 ---
 
 Chang Shan Hao (217) deposit, commonly abbreviated to CSH 217 is an open

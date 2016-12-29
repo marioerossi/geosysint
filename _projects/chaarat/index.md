@@ -2,6 +2,8 @@
 layout: project
 title: Chaarat
 subtitle: Resource Estimation
+album-id: dndZi
+thumbnail-size: 2
 ---
 
 The Chaarat Property is located at latitude 42°1’12” N and longitude

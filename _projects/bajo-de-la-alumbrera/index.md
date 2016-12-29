@@ -2,6 +2,8 @@
 layout: project
 title: Bajo de la Alumbrera 
 subtitle: Resource Audits
+album-id: GcGOD
+thumbnail-size: 2
 ---
 
 The Bajo de la Alumbrera (Alumbrera) copper-gold mine in Argentina is
