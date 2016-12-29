@@ -8,3 +8,7 @@ layout: page
 </ol>
 
 {{ content }}
+
+{% if page.album-id != null and page.album-id != blank %}
+<div id="images" data-album-id="{{ page.album-id }}"></div>
+{% endif %}

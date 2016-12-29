@@ -29,8 +29,9 @@
     {% for script in page.scripts %}
     <script src="{{ site.baseurl }}/js/{{ script }}"></script>
     {% endfor %}
-    {% elsif page.layout == "project" %} {% comment %} This is a work arround preventing the need to specify this css file in *each* project yaml front matter. {% endcomment %}
+    {% elsif page.album-id != null and page.album-id != blank %}
     <script src="{{ site.baseurl }}/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/imgur_access.js"></script>
     {% endif %}
 </body>
 
