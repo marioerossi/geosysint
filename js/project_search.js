@@ -1,35 +1,43 @@
 $(function () {
-    var projects = $("#projects > li");
     var projectsList = $("#projects");
+    var projects = $("#projects > li");
+    var projectsTitles = [];
+
+    projects.each(function (index) {
+        projectsTitles.push({
+            index: index, // Used by Fuse as an id
+            text: this.innerText // Used by Fuse for search
+        });
+    });
 
     var options = {
-        id: "",
+        id: "index",
         caseSensitive: false,
         shouldSort: true,
+        matchAllTokens: true,
         threshold: 0.4,
         location: 0,
         distance: 50,
         maxPatternLength: 32,
-        keys: ["innerText"]
+        keys: ["text"],
+        verbose: false
     };
-    var fuse = new Fuse(projects, options);
+    var fuse = new Fuse(projectsTitles, options);
 
     function handleSearch() {
         var search = $.trim($("#search-projects").val()).substring(0, options.maxPatternLength);
         var result = search === "" || search === null ? projects : fuse.search(search);
-        for (var i = 0; i < projects.length; i++)
-            projects[i].remove();
-        for (var i = 0; i < result.length; i++)
-            projectsList.append(result[i]);
+        projects.detach("li"); // Remove all items
+        for (var i = 0; i < result.length; i++) // Add back items returned from search
+            projectsList.append(projects[result[i]]);
     }
 
     var inputBox = $('#search-projects');
     var oldInput = inputBox.val();
-    inputBox.on('input', function (e) {
+    inputBox.on('input', function () {
         var newVal = inputBox.val();
         if (oldInput != newVal) {
             handleSearch();
-            console.log("HIAZ");
             oldInput = newVal
         }
     });
