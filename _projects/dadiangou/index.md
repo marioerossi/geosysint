@@ -2,6 +2,8 @@
 layout: project
 title: Dadiangou
 subtitle: Resource Estimation
+album-id: HelxR
+thumbnail-size: 2
 ---
 
 The Dadiangou project is located in SE Gansu Province, central China.

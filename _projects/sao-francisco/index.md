@@ -2,6 +2,8 @@
 layout: project
 title: Sao Francisco
 subtitle: Resource Estimation
+album-id: KA9gi
+thumbnail-size: 2
 ---
 
 The Sao Francisco Mine, located in western Mato Grosso State, Brazil, is
