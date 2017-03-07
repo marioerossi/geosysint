@@ -15,3 +15,5 @@ Conventional grade control methods include defining grade outlines and using inv
  
 In general, improvements from the simulation-based methods are evident in more erratic grade distributions and in more marginal mixed ore-type zones.  More complicated grade control scenarios, such as those including multiple processing options and stockpiling, will also lend themselves to optimization through simulation based methods.
 
+Reliable reconciliation (production) information is used to optimize the grade control model and also the resource model. Determining the degree of reliability of the reconciliation information is key to understanding to what extent it is possible to optimize and calibrate models, as the precision of such information is sometimes poor. GSI can assess the quality of the reconciliation information and the feasibility of using it for model calibration.
+
