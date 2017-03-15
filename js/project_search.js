@@ -26,10 +26,16 @@ $(function () {
 
     function handleSearch() {
         var search = $.trim($("#search-projects").val()).substring(0, options.maxPatternLength);
-        var result = search === "" || search === null ? projects : fuse.search(search);
-        projects.detach("li"); // Remove all items
-        for (var i = 0; i < result.length; i++) // Add back items returned from search
-            projectsList.append(projects[result[i]]);
+        if (search === "" || search === null) {
+            projects.detach("li"); // Remove all items
+            for (var i = 0; i < projects.length; i++) // Add back all items
+                projectsList.append(projects[i]);
+        } else {
+            var result = fuse.search(search);
+            projects.detach("li"); // Remove all items
+            for (var i = 0; i < result.length; i++) // Add back items returned from search
+                projectsList.append(projects[result[i]]);
+        }
     }
 
     var inputBox = $('#search-projects');
