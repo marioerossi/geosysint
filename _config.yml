@@ -1,7 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
@@ -14,8 +10,8 @@ email: mrossi@geosysint.com
 description: >
   GeoSystems International, Inc. (GSI) is dedicated to the use of sound
   scientific methods for the investigation of spatially distributed phenomena.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://beta.geosysint.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog (No slash at the end)
+url: "http://beta.geosysint.com" # the base hostname & protocol for your site (No slash at the end)
 domain: "beta.geosysint.com"
 author: "Thomas Pakh, Mario Rossi, Sebastian Rossi"
 
@@ -25,7 +21,10 @@ markdown: kramdown
 collections:
   projects:
     output: true
-    permalink: /projects/:path
+    permalink: /projects/:title/
+  papers:
+    output: true
+    permalink: /papers/:path
   members:
     output: true
     permalink: /personnel/:path
