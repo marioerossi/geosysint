@@ -29,7 +29,8 @@ navposition: 2
     <ul id="papers">
         {% for collection in site.collections %}
             {% if collection.label == "papers" %}
-                {% for file in collection.files %}
+                {% assign sorted_files = collection.files | sort: "basename" %}
+                {% for file in sorted_files %}
                     <li><a href="{{ site.baseurl }}{{ file.path | split: '_' }}" target="_blank">{{ file.basename | normalize_whitespace }}</a></li>
                 {% endfor %}
             {% endif %}
