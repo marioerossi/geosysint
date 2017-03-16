@@ -23,6 +23,7 @@ $(function () {
         id: "index",
         caseSensitive: false,
         shouldSort: true,
+        tokenize: true,
         matchAllTokens: true,
         threshold: 0.4,
         location: 0,
