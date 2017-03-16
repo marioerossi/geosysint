@@ -31,7 +31,7 @@ navposition: 2
             {% if collection.label == "papers" %}
                 {% assign sorted_files = collection.files | sort: "basename" %}
                 {% for file in sorted_files %}
-                    <li><a href="{{ site.baseurl }}{{ file.path | split: '_' }}" target="_blank">{{ file.basename | normalize_whitespace }}</a></li>
+                    <li><a href="{{ site.baseurl }}/{{ file.path | split: '/_' }}" target="_blank">{{ file.basename | normalize_whitespace }}</a></li>
                 {% endfor %}
             {% endif %}
         {% endfor %}
