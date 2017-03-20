@@ -11,8 +11,8 @@ description: >
   GeoSystems International, Inc. (GSI) is dedicated to the use of sound
   scientific methods for the investigation of spatially distributed phenomena.
 baseurl: "" # the subpath of your site, e.g. /blog (No slash at the end)
-url: "http://beta.geosysint.com" # the base hostname & protocol for your site (No slash at the end)
-domain: "beta.geosysint.com"
+url: "http://www.geosysint.com" # the base hostname & protocol for your site (No slash at the end)
+domain: "www.geosysint.com"
 author: "Thomas Pakh, Mario Rossi, Sebastian Rossi"
 
 # Build settings
