@@ -1,0 +1,17 @@
+@ A 216.239.138.22
+@ TXT "v=spf1 include:spf.guardedhost.com ~all"
+
+
+Ok, that should be all. You can save this in case you need to put it back, but I doubt you'll need to.
+
+ok great! thxs Thomas!
+
+
+Additionally, you can create a Cloudflare account to provide https encryption on the website, 
+but unless you care about external hits on the website (i.e., not ones that you've told people to look), it won't really do anything.
+
+ok understood! and thxs again for the help!
+
+No problem, let me know if anything else like this is needed.
+
+Will do! cheers
