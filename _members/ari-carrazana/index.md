@@ -8,4 +8,4 @@ title: Ariana Carrazana
     <li class="active">{{ page.title }}</li>
 </ol>
 
-![Ariana Carrazana](resume.pdf)
+![Ariana Carrazana Info](ari-carrazana-info.png)
